@@ -22,7 +22,7 @@ a.item:hover{
 a.item:active{
 	color: gold
 }
-.main{
+.container{
 	background-color: gray
 }
 h1{
