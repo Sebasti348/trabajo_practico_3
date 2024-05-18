@@ -1,0 +1,93 @@
+@charset  "UTF-8";
+
+#header{
+	background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+	
+}
+
+nav.menu{
+	background-color: gray;
+    color: #fff;
+    padding: 10px;
+}
+
+a.item{
+	color: white
+}
+a.item:hover{
+	color: black
+}
+a.item:active{
+	color: gold
+}
+.main{
+	background-color: gray
+}
+h1{
+	background-color: ligthgray;
+	text-align: center;
+    padding-left: 15px;
+    margin-left: 15px;
+  
+}
+h2.subtitulo{
+	font-family: sans-serif;
+}
+h3{
+	font-family: cursive;
+}
+p{
+	font-family: sans-serif;
+}
+section.seccion1{
+	background-color: #DCDCDC	
+}
+section.seccion2{
+	background-color: #FFFAF0
+}
+section.seccion3{
+	background-color: #696969
+}
+#footer{
+	background-color: orange;
+}
+input {
+    
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+   
+}
+label {
+
+    font-style: italic;
+    background-color: lightgray;
+    text-align: left;
+}
+.additional-link {
+    /* Estilos para los enlaces dentro del contenido adicional */
+    color: blue;
+    text-decoration: none;
+    /* Otros estilos específicos según tus necesidades */
+}
+
+img.progv {
+    max-width: 25%;
+    height: auto;
+   
+}
+a.bajo{
+	font-family: sans-serif;
+}
+
+ul.Dif{
+	display: compact;
+}
+table.tabla{
+	margin-bottom: 10px;
+}

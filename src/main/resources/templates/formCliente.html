@@ -2,17 +2,28 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Formulario</title>
+<link rel="stylesheet" href="/css/estilos.css"></link>
 </head>
 <body>
-	<header>
-		
+	
+		<header id="header">
+		<h1> Programacion Visual </h1>
+		<nav class="menu">
+			<ul >
+				<li ><a href="" class="item">Inicio</a></li>
+				<li ><a href="" class="item">Caracteristicas</a></li>
+				<li ><a href="" class="item"> Diferencias C++ y Java</a></li>
+				<li ><a href="" class="item"> Recursos</a></li>
+			</ul>
+		</nav>
+
 
 
 	</header>
-	<main>
+	<main class="main">
 	
-	<h1>Formuladio DE Datos</h1>
+	<h1>Formulario De Datos</h1>
 		<form>
 			<label for="dni"> DNI</label>
 			<input id="dni" type="number" required placeholder="Ingrese el numero de DNI"></input><br>
@@ -20,7 +31,7 @@
 			<label for="nombres"> Nombres:</label>
 			<input id="nombres" type="text" required placeholder="Ingrese su Nombre"></input><br>
 			<label for="apellidos"> Apellidos:</label>
-			<input id="apellidos" type="number" required placeholder="Ingrese sus apellidos"></input><br>
+			<input id="apellidos" type="text" required placeholder="Ingrese sus apellidos"></input><br>
 			<label for="fecnac"> Fecha de Nacimiento:</label>
 			<input id="fecnac" type="date" required placeholder="Ingrese su fecha de nacimiento"></input><br>
 			
@@ -34,11 +45,53 @@
 				<input id="generoX" type="radio" value="X" name="genero" ></input><br>
 		
 			</div>
-			<label for="correoElectronico">Correo Electronico:</label>
-		
-		<input type="button" value="Gurdar"></input>
+			<label for="correoElectronico">Correo Electronico:</label><br>
+			<input id="correoElectronico" type="email" required name="correoEletronico" placeholder="Ingrese su email" ></input><br>
+			<label for="domicilio">Domicilio:</label><br>	
+			<input id="domicilio" type="text"   placeholder="ingrese Correo electronico " name="domicilio"></input><br>
+			<label for="provincia">Provincia:</label>
+			<select id="provincia"     name="provinica">
+			<option value="Jujuy" selected>Jujuy</option>		
+			<option value="Salta">Salta</option>	
+			<option value="Tucuman">Tucuman</option>
+			<option value="Chaco">Chaco</option>	
+			<option value="Misiones">Misiones</option>	
+			
+			
+			</select><br>
+			<label for="celular"> Telefono Celular</label>
+			<input id="celular" type="number" required placeholder="Ingrese su numero de celular"></input><br>
+			<label >Categoria de intereses</label>
+			<div>
+				<label for="interesesF">Futbol</label>
+				<input id="interesesF" type="checkbox"  name="intereses"></input><br>
+				<label for="interesesG">Gastromia</label>
+				<input id="interesesG" type="checkbox"  name="intereses"></input><br>
+				<label for="interesesC">Comercio</label>
+				<input id="interesesC" type="checkbox"  name="intereses"></input><br>
+			</div>
+			   	<label for="sugerencias">Sugerencias para la empresa:</label><br>
+        		<textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br>
+        	<label for="password">Contraseña:</label>
+        	<input type="password" id="password" name="password" maxlength="10" minlength="2"><br>
+			<label for="passwordDeNuevo">Contraseña Nuevamente:</label>
+        	<input type="password" id="passwordDeNuevo" name="passwordDeNuevo" maxlength="10" minlength="2" ><br>
+        	<input  id="terminos" type="checkbox" name="terminos" required>
+        	<label for="terminos">Acepto los términos y condiciones</label><br>
+			<input type="checkbox" id="informacionEmpresa" name="informacionEmpresa">
+	        <label for="informacionEmpresa">Acepto recibir información relativa a la empresa</label><br>
+			
+		<input type="button" value="Cancelar"></input>
 		<input type="submit" value="Gurdar"></input>
 		</form>
 	</main>
+	<footer id="footer">
+	<p>Contacto:</p>
+        <a href="#"> progvisualapu@example.com</a>
+        <p>Sígueme en redes sociales:</p>
+        <a class="bajo" href="#">Facebook</a>
+        <a class="bajo" href="#">Twitter</a>
+    </footer>
+	
 </body>
 </html>
