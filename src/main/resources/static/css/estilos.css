@@ -25,6 +25,9 @@ a.item:active{
 .container{
 	background-color: gray
 }
+.main{
+	font-family: cursive;
+}
 h1{
 	background-color: ligthgray;
 	text-align: center;
